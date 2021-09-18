@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6bb3da03-a9bd-430c-b000-169cc09b6816" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/atguigu/springcloud/controller/PaymentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/atguigu/springcloud/controller/PaymentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/com/atguigu/springcloud/controller/PaymentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/com/atguigu/springcloud/controller/PaymentController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/src/main/java/com/atguigu/springcloud/controller/PaymentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/src/main/java/com/atguigu/springcloud/controller/PaymentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/src/main/java/com/atguigu/springcloud/service/PaymentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/src/main/java/com/atguigu/springcloud/service/PaymentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/target/classes/com/atguigu/springcloud/controller/PaymentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/target/classes/com/atguigu/springcloud/controller/PaymentController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/target/classes/com/atguigu/springcloud/service/PaymentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/target/classes/com/atguigu/springcloud/service/PaymentService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,7 +69,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -118,6 +120,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="OrderHystrixMain80" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-consumer-feign-hystrix-order80" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.springcloud.OrderHystrixMain80" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="OrderMain80" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="cloud-consumer-order80" />
       <extension name="coverage">
@@ -140,6 +149,13 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.springcloud.OrderZKMain80" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PaymentHystrixMain8001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-provider-hystrix-payment8001" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.springcloud.PaymentHystrixMain8001" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -247,6 +263,8 @@
       <workItem from="1631850259763" duration="24000" />
       <workItem from="1631871990412" duration="1028000" />
       <workItem from="1631873158317" duration="4826000" />
+      <workItem from="1631928068983" duration="9486000" />
+      <workItem from="1631966353459" duration="71000" />
     </task>
     <servers />
   </component>
@@ -254,18 +272,18 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="552" y="181" key="#Project_Structure" timestamp="1631873257296">
+    <state x="552" y="181" key="#Project_Structure" timestamp="1631936724229">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="181" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1631873257296" />
+    <state x="552" y="181" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1631936724229" />
     <state x="414" y="178" width="1151" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1631845776575">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="178" width="1151" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1631845776575" />
-    <state x="765" y="228" key="#com.intellij.ide.util.MemberChooser" timestamp="1631804270457">
+    <state x="765" y="228" key="#com.intellij.ide.util.MemberChooser" timestamp="1631933714772">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="228" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1631804270457" />
+    <state x="765" y="228" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1631933714772" />
     <state x="532" y="448" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1631804296505">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -310,18 +328,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="531" y="185" key="Registry/0.0.1920.1040@0.0.1920.1040" timestamp="1631420310353" />
-    <state x="481" y="195" key="SettingsEditor" timestamp="1631845721756">
+    <state x="481" y="195" key="SettingsEditor" timestamp="1631929982640">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="481" y="195" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1631845721756" />
+    <state x="481" y="195" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1631929982639" />
     <state x="92" y="92" width="1736" height="856" key="dock-window-1" timestamp="1631421271273">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1631421271273" />
-    <state x="334" y="224" key="new project wizard" timestamp="1631876755871">
+    <state x="334" y="224" key="new project wizard" timestamp="1631936734573">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="334" y="224" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1631876755871" />
+    <state x="334" y="224" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1631936734573" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1631500003012">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
